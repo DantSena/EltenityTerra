@@ -43,12 +43,13 @@
     object-fit: cover;
     background-color: white; /* area putih di belakang logo */
     padding: 1px;            /* tebal ruang putih */
-    box-shadow: 0 16px 6px rgba(0,0,0,0.15); /* opsional: biar ada bayangan lembut */
+    box-shadow: 0 16px 6px rgba(0, 0, 0, 0.726); /* opsional: biar ada bayangan lembut */
   }
   
   .nava a {
     padding: 14px 16px;
     color: #fff;
+    text-shadow: 0 2px 4px rgb(0, 0, 0);
     text-decoration: none;
     border-bottom: 1px solid rgba(21, 175, 1, 0.719);
     }
@@ -232,10 +233,11 @@
   
   /* FOTO */
   .profile-card img {
-    width: 180px;          /* ukuran dikontrol CSS */
-    height: 220px;
-    object-fit: cover;     /* foto tidak gepeng */
-    border-radius: 10px;
+    width:290px;          /* ukuran dikontrol CSS */
+    height: 100px;
+    overflow: hidden;
+    object-fit:cover;     /* foto tidak gepeng */
+    border-radius: 5px;
     display: block;
     margin: 0 auto;
   }
@@ -377,7 +379,7 @@
   }
   
   .upload-table th {
-    background: #006eff;
+    background: #04963c;
     color: #ffffff;
     padding: 8px;
   }
